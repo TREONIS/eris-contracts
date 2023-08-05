@@ -8,8 +8,6 @@ This library lets you create and interact with on-chain Solidity contracts from 
 
 ### eris-db server
 
-You need a running [eris-db](https://github.com/eris-ltd/eris-db) server. `eris-db` is a server wrapper for [Tendermint](https://github.com/tendermint/tendermint), which is the actual blockchain-client.
-
 #### Native
 
 `eris-db` server is officially supported on Ubuntu `14.04`, `14.10` and `15.04`. Installation instructions can be found in its `README.md` file.
@@ -18,9 +16,6 @@ You need a running [eris-db](https://github.com/eris-ltd/eris-db) server. `eris-
 
 Docker is supported, but it is not recommended to build and run manually (see 'Eris cli' below).
 
-#### Eris cli
-
-The preferred method of configuring your blockchain and starting up the server will be [eris-cli](https://github.com/eris-ltd/eris-cli). It is currently in the last stages before public release. It runs eris-db/tendermint servers through docker.
 
 ## Usage
 
