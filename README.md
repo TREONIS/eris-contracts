@@ -146,9 +146,6 @@ The exception to the private key rule is if you are testing/developing. It is of
 
 Even if worthless/throw-away keys are used when developing and testing, it is very important that they are removed before the system goes live, so handle them with care - even during dev.
 
-## API
-
-This is an overview and a short description of most objects. More details can be found in the code (jsdoc). This will later replace the current docs and tutorials on our [main site](https://erisindustries.com).
 
 ### eris-contracts (root module)
 
