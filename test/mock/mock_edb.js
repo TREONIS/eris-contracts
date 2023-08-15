@@ -16,6 +16,10 @@ MockEdb.prototype.events = function(){
     return this._events;
 };
 
+MockEdb.prototype.notes = function(){
+    return this._notes;
+};
+
 MockTxs.prototype.call = function (from, address, data, callback){
     callback(null, "");
 };
